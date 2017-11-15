@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Gavrik Valeriya"
+  },
+  "text": {
+    "more": "На полученном графе отображены мои друзья, одноклассники, одногруппники, коллеги по работе и хобби из социальной сети Вконтакте.\n\nОранжевым цветом обозначены - активисты из ВШЭ\nЧерным цветом - это 57 школа и друзья - творческая молодёжь\nСиреневым цветом - одноклассники со школы 1266 и друзья по школе, проживающие вблизи станции метро Ленинский проспект\nСветло-зелёныем цветом отмечены подруги-гиманстки\nТёмно-зелёным - коллеги по литературному ремеслу\nГолубым цветом выделены однокурсники, бывшие и нынешнии, студенты ВШЭ\n\nУзлами обозначен каждый человек, всего 543,  ребрами связи между ними, всего 9404.\n\nОбщая модулярность графа - 0,734\n\nИз графа можно видеть, что активисты из ВШЭ (выделены оранжевым цветом) более тесно взаимосвязаны друг с другом. \n\nПолученные сообщества, в целом, соответствуют действительности",
+    "intro": "Мои социальные связи в соцсети вконтакте",
+    "title": "Friends"
+  },
+  "legend": {
+    "edgeLabel": "Сила дружбы )",
+    "colorLabel": "Соц группы",
+    "nodeLabel": "Сообщества"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
