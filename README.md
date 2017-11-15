@@ -1,2 +1,2 @@
 # DL_homework_6
-домашняя работа 6
+https://gavriklera.github.io/DL_homework_6/
